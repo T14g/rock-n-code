@@ -1,17 +1,17 @@
 import React from 'react';
-
 import Logo from '../Logo';
+import HeaderStyles from './Header.styles';
 
 const Header = () => {
     return(
-        <div>
+        <HeaderStyles>
             <Logo />
             <ul>
                 <li>Item</li>
                 <li>Item</li>
                 <li>Item</li>
             </ul>
-        </div>
+        </HeaderStyles>
     )
 };
 
